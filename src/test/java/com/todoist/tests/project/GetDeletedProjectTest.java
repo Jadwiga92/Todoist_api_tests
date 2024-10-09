@@ -14,7 +14,7 @@ class GetDeletedProjectTest {
     String projectId;
 
     @Test
-    void getDeletedElement() {
+    void shouldGetDeletedElement() {
         CreateProjectRequestDto project = new CreateProjectRequestDto();
         project.setName("Delete Project");
 

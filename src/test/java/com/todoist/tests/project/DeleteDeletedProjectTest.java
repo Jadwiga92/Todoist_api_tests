@@ -13,7 +13,7 @@ class DeleteDeletedProjectTest {
     String projectId;
 
     @Test
-    void deleteDeletedProjectTest() {
+    void shouldDeleteDeletedProjectTest() {
         CreateProjectRequestDto projectParentDto = new CreateProjectRequestDto();
         projectParentDto.setName("Delete Project");
 

@@ -6,13 +6,6 @@ public class TodoistProperties {
 
     private static final String BEARER = "todoist.bearer";
 
-    //    private static String getProperty(String key) {
-//        return ResourceBundle.getBundle("todoist").getString(key);
-//    }
-//
-//    public static String getBearer() {
-//        return getProperty(BEARER);
-//    }
     private static String getProperty(String key) {
         return ResourceBundle.getBundle("todoist").getString(key);
     }
